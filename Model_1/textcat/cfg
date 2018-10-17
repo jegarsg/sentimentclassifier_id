@@ -1,0 +1,8 @@
+{
+  "pretrained_dims":0,
+  "labels":[
+    "POSITIVE",
+    "NEGATIVE",
+    "NEUTRAL"
+  ]
+}
