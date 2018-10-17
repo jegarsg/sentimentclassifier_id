@@ -13,7 +13,7 @@ model = None
 def load_spacy_model():
     global model
 
-    model = spacy.load("/Users/radiansatria/Desktop/web_jeg/Model15Iterasi") ## GANTI KE LOKASI MODELMU JEG!!!##
+    model = spacy.load("Model15iterasi") ## GANTI KE LOKASI MODELMU JEG!!!##
     print('Model berhasil dimuat..')
 
 @app.route("/get/task",methods =['GET'])
