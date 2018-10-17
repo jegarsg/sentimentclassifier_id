@@ -77,4 +77,4 @@ def predict():
 
 if __name__ == '__main__':
     load_spacy_model()
-    app.run()
+    app.run(debug = True)
