@@ -47,7 +47,7 @@ def predict():
                 id: -Teks
                 required:
                     - teks
-                property:
+                properties:
                     teks:
                         type: string
                         description: Masukkan kalimat yang kan diprediksi.
